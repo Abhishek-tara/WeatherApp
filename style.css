@@ -6,8 +6,11 @@
 }
 
 body{
-    background-color: rgb(240, 241, 240);
+    background: linear-gradient(30deg, rgb(235, 40, 79),rgb(24, 70, 139));
+    height: 100vh;
+    overflow: hidden;
 }
+
 
 .card{
     width: 90%;
@@ -97,7 +100,7 @@ body{
 }
 
 .weather{
-    display: none;
+    display: block;
 }
 
 .error{
